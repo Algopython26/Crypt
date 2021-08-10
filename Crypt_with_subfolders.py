@@ -5,8 +5,11 @@ print("--------------------")
 zzz = input("Введите: 1- для шифрования, 2 - для дешифрования: ")
 d=input("Введите каталог: ")
 password=input("Введите пароль: ")
+
+# счетчики
 ff=0
 dd=0
+
 def criptik (file_name):
     global password
     buff = 512*1024
